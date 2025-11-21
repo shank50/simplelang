@@ -95,3 +95,4 @@ Pushed missing CMakeList
 ## Deployment
 
 Deployed the project on GCP. Now you can try it live. Basically hosted a simple server that takes input in the browser and saves as a temporary .ml file and runs the build simplelang to run and print on the browser.
+Try here: <https://simplelang.shank50.live>
