@@ -88,3 +88,10 @@ Expressions support the following constructs:
 
 The parser enforces the usual precedence levels (multiplication and division bind more tightly than addition and subtraction) and associativity is left to right. Division by zero at runtime raises an error. Identifiers that have not been introduced by `let` also raise runtime errors. The optimizer operates only on numeric literals, so semantic behavior remains obvious.
 
+### Update: 22 Nov 2025
+
+Pushed missing CMakeList
+
+## Deployment
+
+Deployed the project on GCP. Now you can try it live. Basically hosted a simple server that takes input in the browser and saves as a temporary .ml file and runs the build simplelang to run and print on the browser.
